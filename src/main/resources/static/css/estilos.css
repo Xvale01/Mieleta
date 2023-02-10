@@ -1,0 +1,102 @@
+*{
+   font-family: sans-serif; 
+}
+
+/*********  MODELO  DE  CAJAS  *************/
+body{
+    background-color: white;
+    padding: 80px 20px 0 0;    
+}
+
+.header{
+    background-color: #f2ca99;
+    heigth: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.aside{
+    background-color: whitesmoke;
+    position: fixed;
+    padding: 20px 0 0 0;    
+    top: 100px;
+    left: 0;
+    bottom: 20px;
+    width: 15%;
+}
+
+.section{
+    background-color:white ;
+    position: fixed;
+    top: 100px;
+    left: 15%;
+    right: 0%;
+    bottom: 20px;
+    overflow: scroll;
+}
+
+.footer{
+    background-color: #a6a48a;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%    
+}
+
+.textoCentrado{
+    text-align: center
+}
+/******************MENU********************/
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin-left: 0;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    line-height: 80px;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.nav-menu-link:hover {
+    background-color: #d98e04;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.logo {
+   font-size: 30px;
+   font-weight: bold;
+   padding: 0 40px;
+   line-height: 80px;
+   left: 10%
+}
+
+p {
+    text-align: justify
+}
+
+
+
